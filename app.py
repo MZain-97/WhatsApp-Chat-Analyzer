@@ -1,7 +1,8 @@
 
 import streamlit as slt
 import wordcloud
-import preprocess,helper
+import preprocess
+import helper
 import matplotlib.pyplot as plt
 slt.sidebar.title("WhatsApp Chat Analyzer")
 uploaded_file = slt.sidebar.file_uploader("Choose a File")
