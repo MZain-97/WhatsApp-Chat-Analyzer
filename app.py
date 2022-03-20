@@ -1,5 +1,3 @@
-from operator import index
-from tokenize import Number
 
 import streamlit as slt
 import wordcloud
